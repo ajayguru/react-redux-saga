@@ -1,0 +1,12 @@
+@import 'variables';
+
+body {
+    background-color: $background-page-color;
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+}
+
+#top-navbar {
+    opacity: 1.0;
+}

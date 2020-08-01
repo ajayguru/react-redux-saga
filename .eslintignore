@@ -1,0 +1,14 @@
+*.html
+*.json
+*.lock
+*.log
+*.md
+*.scss
+*.snap
+
+coverage/*
+logs/*
+node_modules/*
+dist/*
+styles
+build/*

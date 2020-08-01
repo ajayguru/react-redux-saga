@@ -1,0 +1,45 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": 2,
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "func-names": ["error", "never"],
+    "comma-dangle": "off",
+    "react/prefer-stateless-function": "off",
+    "import/no-dynamic-require": "off",
+    "no-underscore-dangle": "off",
+    "no-console": "error",
+    "global-require": "off",
+    "no-param-reassign": "off",
+    "camelcase": "off",
+    "react/jsx-no-bind": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-use-before-define": "off",
+    "no-return-assign": "off",
+    "react/jsx-uses-vars": "error",
+    "indent": "off", // error", 4],
+    "linebreak-style": "off",
+    "react/jsx-indent": "off",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true,
+          "js": true
+      }
+  },
+  "plugins": [
+      "react"
+  ],
+  "settings" : {
+      "import/extensions": ["js", "jsx", "png"],
+      "import/ignore": ["node_modules", "dist", ".cache", ".(scss|less|css)$"]
+  }
+}
